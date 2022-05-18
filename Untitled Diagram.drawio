@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T08:43:51.511Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="YA3wJM-qE3x7Sm4KN1Ab" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T09:10:12.608Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="MoC5WXrvdNxSEA40tg6J" version="18.0.7" type="github">
   <diagram name="HL REQ" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="801" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -78,11 +78,47 @@
         <mxCell id="mH4RBdHBhGK77Cxrk1bE-24" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="940" y="240" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mH4RBdHBhGK77Cxrk1bE-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="645" y="800" width="120" height="60" as="geometry" />
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="850" width="150" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="mH4RBdHBhGK77Cxrk1bE-27" value="&lt;b&gt;Saved models&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="675" y="815" width="60" height="30" as="geometry" />
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-28">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-27" value="&lt;b&gt;API&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;auth and save trained AI models" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-28">
+          <mxGeometry y="15" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-29">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-31" value="&lt;b&gt;API&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;auth and save trained AI models" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-29">
+          <mxGeometry x="8" y="15" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-34" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="840" y="690" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-35" value="&lt;b&gt;Data Lake&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="856" y="695" width="78" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mH4RBdHBhGK77Cxrk1bE-36" target="mH4RBdHBhGK77Cxrk1bE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.583;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mH4RBdHBhGK77Cxrk1bE-36" target="mH4RBdHBhGK77Cxrk1bE-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-36" value="&amp;nbsp;should be able to retrieve &amp;amp; hold data from sensor softwares" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="733" width="110" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.427;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mH4RBdHBhGK77Cxrk1bE-11" target="mH4RBdHBhGK77Cxrk1bE-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mH4RBdHBhGK77Cxrk1bE-15" target="mH4RBdHBhGK77Cxrk1bE-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-41" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="996" width="515" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
