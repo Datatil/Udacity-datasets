@@ -1,17 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T08:11:11.907Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="ZHKngTNTw2_1zbskI_Ol" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T08:11:49.997Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="oYz4fpZmD-YVXDczE5uO" version="18.0.7" type="github">
   <diagram name="HL REQ" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="801" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="mH4RBdHBhGK77Cxrk1bE-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-4" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="660" y="430" width="130" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mH4RBdHBhGK77Cxrk1bE-2" value="&lt;b&gt;Camera Sensor&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="695" y="440" width="60" height="30" as="geometry" />
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-4">
+          <mxGeometry width="130" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mH4RBdHBhGK77Cxrk1bE-3" value="Sensor should be able to capture picture frames" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="490" width="90" height="35" as="geometry" />
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-2" value="&lt;b&gt;Camera Sensor&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-4">
+          <mxGeometry x="35" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-3" value="Sensor should be able to capture picture frames" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-4">
+          <mxGeometry x="20" y="60" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1000" y="430" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-5">
+          <mxGeometry width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-7" value="&lt;b&gt;Camera Sensor&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-5">
+          <mxGeometry x="35" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4RBdHBhGK77Cxrk1bE-8" value="Sensor should be able to capture picture frames" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mH4RBdHBhGK77Cxrk1bE-5">
+          <mxGeometry x="20" y="60" width="90" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
